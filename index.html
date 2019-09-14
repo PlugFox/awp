@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!--TITLE-->
+      <title>AWP</title>
+
+      <!--META-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+      <meta name="description" content="AWP (Automated WorkPlace)">
+      <meta name="keywords" content="automated, workplace, work, place, awp, automatedworkplace, crm">
+      <meta name="author" content="PlugFox">
+
+      <!--FAVICONS-->
+      <!-- https://realfavicongenerator.net -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2b5797">
+      <meta name="msapplication-TileColor" content="#2b5797">
+      <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+      <meta name="theme-color" content="#1976d2">
+
+      <!--RSS-->
+      <!--<link rel="alternate" type="application/rss+xml" title="RSS feed name" href="/feed/" />-->
+
+      <!--STYLE-->
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="fonts/fonts.css">
+      <link rel="stylesheet" href="css/clouds.css">
+      <link rel="stylesheet" href="css/angular.css">
+      <style type="text/css">
+        /* Custom CSS */
+      </style>
+
+      <!--SCRIPT-->
+      <script defer src="main.dart.js"></script>
+      <script type="application/javascript">
+        /* Custom JS */
+      </script>
+  </head>
+  <body>
+    <!--BACKGROUND-->
+    <div id="background">
+      <object data="img/bg.svg" type="image/svg+xml">
+        <img src="img/bg.png" alt="">
+      </object>
+    </div>
+
+    <!--HEADER-->
+    <header id="header"></header>
+
+    <!--NO SCRIPT-->
+    <noscript>
+      <div class="center">
+        <h1>Включите Java Script</h1>
+      </div>
+    </noscript>
+
+    <!--FIREBASE AUTH v6.6.0-->
+    <script type="application/javascript" src="js/firebase-app.js"></script>
+    <script type="application/javascript" src="js/firebase-auth.js"></script>
+    <script type="application/javascript" src="js/googlesignin.js"></script>
+
+    <!--CONTENT-->
+    <div id="app-align">
+      <div id="app-wrapper">
+        <div id="app">
+          <!--ANGULAR DART-->
+          <awp><div class="loader"></div></awp>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer id="footer">
+      <p id="copyright" itemprop="copyright" class="footer-text">AWP © <span id="current-year">2019</span> <span id="author">Plague Fox</span></p>
+    </footer>
+
+    <!--CLOUDS CSS ANIMATION-->
+    <div id="clouds">
+      <div class="cloud big front slowest">
+        <object data="img/cloud.svg" type="image/svg+xml">
+          <img src="img/cloud.png" alt="">
+        </object>
+      </div>
+      <div class="cloud distant smaller">
+        <object data="img/cloud.svg" type="image/svg+xml">
+          <img src="img/cloud.png" alt="">
+        </object>
+      </div>
+      <div class="cloud small slow">
+        <object data="img/cloud.svg" type="image/svg+xml">
+          <img src="img/cloud.png" alt="">
+        </object>
+      </div>
+      <div class="cloud distant super-slow massive">
+        <object data="img/cloud.svg" type="image/svg+xml">
+          <img src="img/cloud.png" alt="">
+        </object>
+      </div>
+      <div class="cloud slower">
+        <object data="img/cloud.svg" type="image/svg+xml">
+          <img src="img/cloud.png" alt="">
+        </object>
+      </div>
+    </div>
+
+    <!--JS ONLOAD-->
+    <script>
+      window.onload = function(){
+        // Установить текущий год в копирайт
+        document.getElementById("current-year").innerText = new Date().getFullYear().toString();
+      }
+    </script>
+  </body>
+</html>

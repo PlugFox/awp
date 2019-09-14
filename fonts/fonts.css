@@ -1,0 +1,95 @@
+html, body {
+    font-size: 14px;
+    font-family: "Tahoma Regular", Tahoma, "Tahoma-Regular", "Verdana-Regular", Verdana, "Verdana Regular", Geneva, sans-serif;
+    letter-spacing: 0;
+    line-height: 1;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Tahoma Bold", Tahoma, "Tahoma-Bold", "Verdana-Regular", Verdana, "Verdana Regular", Geneva, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+}
+
+b {
+    font-family: "Tahoma Bold", Tahoma, "Tahoma-Bold", "Verdana-Regular", Verdana, "Verdana Regular", Geneva, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+}
+
+p, input, span, a {
+    font-family: "Tahoma Regular", Tahoma, "Tahoma-Regular", "Verdana", Verdana, Geneva, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1;
+    font-size: 1em;
+}
+
+/* VERDANA */
+@font-face {
+    font-family: 'Verdana Regular', 'Verdana', 'Verdana-Regular';
+    src: url('Verdana.eot');
+    src:
+        local('Verdana Regular'),
+        local('Verdana'),
+        local('Verdana-Regular'),
+        url('Verdana.eot?#iefix') format('embedded-opentype'),
+        url('Verdana.woff') format('woff'),
+        url('Verdana.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Tahoma */
+@font-face {
+    font-family: 'Tahoma Regular', 'Tahoma', 'Tahoma-Regular';
+    src: url('Tahoma.eot');
+    src:
+        local('Tahoma Regular'),
+        local('Tahoma'),
+        local('Tahoma-Regular'),
+        url('Tahoma.eot?#iefix') format('embedded-opentype'),
+        url('Tahoma.woff') format('woff'),
+        url('Tahoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tahoma Bold', 'Tahoma-Bold';
+    src: url('Tahoma-Bold.eot');
+    src:
+        local('Tahoma Bold'),
+        local('Tahoma'),
+        local('Tahoma-Bold'),
+        url('Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Tahoma-Bold.woff') format('woff'),
+        url('Tahoma-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Material+Icons */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(MaterialIcons-Regular.woff2) format('woff2');
+}
+.material-icons {
+    font-family: 'Material Icons', monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}

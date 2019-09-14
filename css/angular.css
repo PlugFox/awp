@@ -1,0 +1,95 @@
+/* Position */
+.full-height {
+    height: 100%;
+}
+.float-left {
+    float: left;
+}
+
+/* LIST */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+dropdown-button {
+    width: 240px !important;
+}
+.dropdown-and-comparison {
+    width: 240px !important;
+}
+
+/* COLORS */
+.red {
+    border-color: #ff4533;
+}
+
+/* BUTTONS AND ICONS */
+.red-icon {
+    color: #ff4533 !important;
+}
+.red-button {
+    color: white;
+    background-color: #ff4533 !important;
+    border-color: #ff4533 !important;
+    transition: all .23s ease;
+    cursor: pointer;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+}
+.red-button-outline {
+    color: #ff4533;
+    background-color: white !important;
+    border-color: #ff4533 !important;
+    transition: all .23s ease;
+    cursor: pointer;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+}
+.button-outline {
+    color: black;
+    background-color: white !important;
+    border-color: black !important;
+    transition: all .23s ease;
+    cursor: pointer;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+}
+
+/* CALENDAR */
+.highlight.highlight-range::before {
+    background: #ffaaaa !important;
+}
+.left.left-range::before {
+    border-left-color: #ff9090 !important;
+}
+.right.right-range::before {
+    border-right-color: #ff9090 !important;
+}
+.boundary.boundary-range.active:not(.hover)::after {
+    background: #ff4533 !important;
+}
+.highlight.highlight-range::before {
+    background: #ff9090 !important;
+}
+.boundary.highlight.highlight-range:not(.active):not(.hover)::after {
+    background: #fdd !important;
+}
+.apply-bar {
+    color: #ff4533 !important;
+}
+.range material-input.active .focused-underline:not(.invalid) {
+    background-color: #ff4533 !important;
+}
+.button-text {
+    text-align: center;
+}
+
+/* CARDS */
+acx-scorecard {
+    padding: 6px 0 !important;
+}
+
+/* MODAL */
+.modal-text {
+    font-size: 1.5em;
+}

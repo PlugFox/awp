@@ -84,11 +84,6 @@ dropdown-button {
     text-align: center;
 }
 
-/* CARDS */
-acx-scorecard {
-    padding: 6px 0 !important;
-}
-
 /* MODAL */
 .modal-text {
     font-size: 1.5em;
